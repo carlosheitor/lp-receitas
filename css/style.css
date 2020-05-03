@@ -1,0 +1,23 @@
+.recipes {
+  background-color: #f3f5f7;
+}
+.recipes > h2 {
+  font-family: "Pacifico", cursive;
+  color: #dc3545;
+}
+.recipes > p {
+  color: #72777d;
+  font-weight: 400;
+}
+.recipes figure {
+  border-color: #dc3545;
+}
+.card-img-top {
+  height: 70vw;
+  object-fit: cover;
+}
+.btn-recipes {
+  width: 50%;
+  color: #fff;
+  background-color: #dc3545;
+}
