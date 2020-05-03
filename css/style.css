@@ -1,16 +1,16 @@
 .recipes {
-  background-color: #f3f5f7;
+  background-color: var(--background-recipes);
 }
 .recipes > h2 {
   font-family: "Pacifico", cursive;
-  color: #dc3545;
+  color: var(--border-card);
 }
 .recipes > p {
-  color: #72777d;
+  color: var(--text-card);
   font-weight: 400;
 }
 .recipes figure {
-  border-color: #dc3545;
+  border-color: var(--border-card);
 }
 .card-img-top {
   height: 70vw;
@@ -18,6 +18,6 @@
 }
 .btn-recipes {
   width: 50%;
-  color: #fff;
-  background-color: #dc3545;
+  color: var(--white);
+  background-color: var(--border-card);
 }
