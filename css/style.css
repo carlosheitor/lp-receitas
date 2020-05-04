@@ -1,3 +1,7 @@
+.navbar-light .navbar-brand {
+  color: var(--border-card);
+  font-family: "Pacifico", cursive;
+}
 .recipes {
   background-color: var(--background-recipes);
 }
@@ -53,10 +57,47 @@ footer {
   background-color: var(--text-card);
   color: var(--white);
   text-align: center;
+  height: 8vw;
+  line-height: 8vw;
+  font-size: 18px;
 }
 address {
   margin-bottom: 0;
 }
 address > a {
   color: inherit;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 35vw;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    font-family: "Pacifico", cursive;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  .carousel-caption > h5 {
+    font-size: 40px;
+  }
+  #receitas > h2,
+  #receitas > p,
+  #quem-somos > h2,
+  #quem-somos > p {
+    text-align: center;
+  }
+  #quem-somos > .row {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 18vw;
+    object-fit: cover;
+  }
 }
